@@ -37,6 +37,7 @@ public class ParsingJSONResponseData {
 			}
 			}
 		Assert.assertEquals(status, true);
+		
 		// validate total price of books
 		double totalprice=0;
 		for(int i=0;i<jo.getJSONArray("book").length();i++)
